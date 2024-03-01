@@ -495,11 +495,13 @@ coroutine.resume(
     )
 )
 local function chatSpam()
+    local Chat = game.Players.LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame["All"].MessageBox.Input
+
     while true do
-        wait(1)
+        wait(1) 
 
         local messages = {
-	          "JOIN /dollhouserp FOR THE NEW DOLLHOUSE, LEAVE THIS BAD DOLLHOUSE, WE ADDED IMPROVEMENTS AND MADE THE GAME BETTER | CHATTYBINS WAS HERE",
+            "JOIN /blackmail AND /dollhouserp AND I MIGHT STOP FLINGING AND SPAMMING CHAT LOL",
             "JOIN /blackmail AND /dollhouserp AND I MIGHT STOP FLINGING AND SPAMMING CHAT LOL",
             "BOOST /blackmail OR /dollhouserp AND ILL WHITELIST U PERMANENTLY FROM THE FLING",
             "CHATTYBINS IS YOUR GOD AND HE OWNS YOU, I AM GOD OF DOLLHOUSE",
@@ -508,8 +510,11 @@ local function chatSpam()
         }
 
         for i, message in ipairs(messages) do
-            Chat(tostring(i) .. " " .. message)
+            Chat.Text = tostring(i) .. " " .. message
             wait(1) -- Adjust the delay between individual messages as needed
+            Chat:CaptureFocus()
+            wait(0.1)
+            Chat:ReleaseFocus()
         end
     end
 end
