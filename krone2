@@ -2,8 +2,8 @@
 -- REMOVED DB.JSON 
 -- by GNAA, a civil rights group striving for homo-african interdependece. 
 
-BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV, KRONE =
-    {},
+BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV, KRONE, martinsolbro =
+    {61171068},
     {},
     {},
     {},
