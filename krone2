@@ -494,32 +494,26 @@ coroutine.resume(
         end
     )
 )
-local function chatSpam()
-    local Chat = game.Players.LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame["All"].MessageBox.Input
-
-    while true do
-        wait(1) 
-
-        local messages = {
-            "JOIN /blackmail AND /dollhouserp AND I MIGHT STOP FLINGING AND SPAMMING CHAT LOL",
-            "JOIN /blackmail AND /dollhouserp AND I MIGHT STOP FLINGING AND SPAMMING CHAT LOL",
-            "BOOST /blackmail OR /dollhouserp AND ILL WHITELIST U PERMANENTLY FROM THE FLING",
-            "CHATTYBINS IS YOUR GOD AND HE OWNS YOU, I AM GOD OF DOLLHOUSE",
-            "CAN SOMEONE COME END CHATTYBINS? HE REMAINS UNDEFEATED 174-0 LOL",
-            "BOOST MY SERVER FOR WHITELIST THANKS MY DOLLHOUSE FANS ^_^"
-        }
-
-        for i, message in ipairs(messages) do
-            Chat.Text = tostring(i) .. " " .. message
-            wait(1) -- Adjust the delay between individual messages as needed
-            Chat:CaptureFocus()
-            wait(0.1)
-            Chat:ReleaseFocus()
-        end
-    end
+local function Chat(msg)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 
-task.spawn(chatSpam)
+task.spawn(
+    function()
+        while true do
+            wait(0.45)
+            Chat("JOIN /dollhouserp FOR THE NEW DOLLHOUSE, LEAVE THIS BAD DOLLHOUSE, WE ADDED IMPROVEMENTS AND MADE THE GAME BETTER | CHATTYBINS WAS HERE")
+            wait(0.45)
+            Chat("BOOST /blackmail OR /dollhouserp AND ILL WHITELIST U PERMANENTLY FROM THE FLING")
+            wait(0.45)
+            Chat("CHATTYBINS IS YOUR GOD AND HE OWNS YOU, I AM GOD OF DOLLHOUSE")
+            wait(0.45)
+            Chat("CAN SOMEONE COME END CHATTYBINS? HE REMAINS UNDEFEATED 174-0 LOL")
+            wait(0.45)
+            Chat("BOOST MY SERVER FOR WHITELIST THANKS MY DOLLHOUSE FANS ^_^")          
+        end
+    end
+)
 
 spawn(
     function()
