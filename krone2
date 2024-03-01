@@ -514,17 +514,3 @@ task.spawn(
         end
     end
 )
-
-spawn(
-    function()
-        while true do
-            wait(0.5)
-            numb = numb + 1
-            if numb == 212 then
-                game.Players.LocalPlayer:Kick("Serverhopping.... cuz we swag like that")
-                wait(0.5)
-                pcall(hop)
-            end
-        end
-    end
-)
