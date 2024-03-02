@@ -463,7 +463,9 @@ task.spawn(
             wait(0.45)
             Chat("CAN SOMEONE COME END CHATTYBINS? HE REMAINS UNDEFEATED 174-0 LOL")
             wait(0.45)
-            Chat("BOOST MY SERVER FOR WHITELIST THANKS MY DOLLHOUSE FANS ^_^")          
+            Chat("BOOST MY SERVER FOR WHITELIST THANKS MY DOLLHOUSE FANS ^_^")
+            wait(0.45)
+            Chat("lapdoll says hiii, and that she will send her menu for free if you boost /blackmail or /dollhouserp ^_^")          
         end
     end
 )
