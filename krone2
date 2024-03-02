@@ -12,7 +12,7 @@ BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV,
     false,
     false
 Settings = {ServerHops = 1, Distance = 18, Globals = {"Executions", "List"}}
-Blacklist, kroneUserids = {}, {4710732523, 354902977, 1757405302, 5190785314}
+Blacklist, kroneUserids = {}, {4710732523, 354902977, 1757405302, 5190785314, 61171068}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
