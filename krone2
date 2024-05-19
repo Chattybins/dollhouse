@@ -455,17 +455,17 @@ task.spawn(
     function()
         while true do
             wait(0.45)
-            Chat("JOIN /dollhouserp FOR THE NEW DOLLHOUSE, LEAVE THIS BAD DOLLHOUSE, WE ADDED IMPROVEMENTS AND MADE THE GAME BETTER | CHATTYBINS WAS HERE")
+            Chat("hey guys long time no fling its me chattybins check out my death metal band gore filled cemetery :3")
             wait(0.45)
-            Chat("BOOST /blackmail OR /dollhouserp AND ILL WHITELIST U PERMANENTLY FROM THE FLING")
+            Chat("I MISSED YOU ALL (not really) I STILL RUN ALL OF YOU THOUGH!!")
             wait(0.45)
-            Chat("CHATTYBINS IS YOUR GOD AND HE OWNS YOU, I AM GOD OF DOLLHOUSE")
+            Chat("CAN SOMEONE PLEASE TELL ME WHY THE OTHER DAY BRADEN GOT EXPOSED FOR ALLOWING A 14 YEAR OLD TO GET LEAKED IN HIS SRVR THEN HE BANNED HER???")
             wait(0.45)
-            Chat("CAN SOMEONE COME END CHATTYBINS? HE REMAINS UNDEFEATED 174-0 LOL")
+            Chat("Chattybins on khr if anyone wants to talk with someone actually half tolerable!")
             wait(0.45)
-            Chat("BOOST MY SERVER FOR WHITELIST THANKS MY DOLLHOUSE FANS ^_^")
+            Chat("CHATTYBINS ON KHR IF U WANNA SEE PROOF OF BRADEN RUNNING AFTER I CONFRONTED HIM ABT ALLOWING A 14 YEAR OLD TO GET LEAKED IN HIS SERVER")
             wait(0.45)
-            Chat("lapdoll says hiii, and that she will send her menu for free if you boost /blackmail or /dollhouserp ^_^")          
+            Chat("IM RUNNING OUT OF SPACE SO MAKE SURE U CHECK OUT MY BAND GORE FILLED CEMETERY!! ITS FIRE")          
         end
     end
 )
